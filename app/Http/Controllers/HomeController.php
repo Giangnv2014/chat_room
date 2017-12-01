@@ -25,4 +25,14 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    /**
+     * Show the chat screen.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function chat()
+    {
+        return view('chat');
+    }
 }
